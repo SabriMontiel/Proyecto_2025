@@ -1,63 +1,40 @@
-<<<<<<< HEAD
-# CodeIgniter 4 Framework
+# 🏎️ F1ANTIC – Tienda de merchandising de Fórmula 1
 
-## What is CodeIgniter?
+**F1ANTIC** es una tienda online de merchandising inspirada en el mundo de la Fórmula 1. Permite realizar una gestión completa de productos a través de un CRUD (Create, Read, Update, Delete). Está desarrollada como parte de un proyecto académico, con foco en la lógica backend y el manejo de base de datos.
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](https://codeigniter.com).
+## 🛒 Productos disponibles:
 
-This repository holds the distributable version of the framework.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+- Buzos
+- Remeras
+- Gorras
+- Autitos coleccionables
 
-More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
+---
 
-You can read the [user guide](https://codeigniter.com/user_guide/)
-corresponding to the latest version of the framework.
+## ⚙️ Tecnologías utilizadas
 
-## Important Change with index.php
+- **PHP**
+- **CodeIgniter 4**
+- **MySQL**
+- **Bootstrap 5**
+- **JavaScript**
+- **XAMPP (entorno local)**
 
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
+---
 
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
+## 🧩 Funcionalidades
 
-**Please** read the user guide for a better explanation of how CI4 works!
+- Alta, baja lógica, edición y listado de productos
+- Subida y vista de imágenes por producto
+- Categorías dinámicas y reutilizables
+- Carrito de compras con selección y resumen de pedido
+- Registro y gestión básica de usuarios
 
-## Repository Management
+---
 
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
+## 🚀 Cómo ejecutar el proyecto localmente
 
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
-
-## Contributing
-
-We welcome contributions from the community.
-
-Please read the [*Contributing to CodeIgniter*](https://github.com/codeigniter4/CodeIgniter4/blob/develop/CONTRIBUTING.md) section in the development repository.
-
-## Server Requirements
-
-PHP version 7.4 or higher is required, with the following extensions installed:
-
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
-
-> [!WARNING]
-> The end of life date for PHP 7.4 was November 28, 2022.
-> The end of life date for PHP 8.0 was November 26, 2023.
-> If you are still using PHP 7.4 or 8.0, you should upgrade immediately.
-> The end of life date for PHP 8.1 will be November 25, 2024.
-
-Additionally, make sure that the following extensions are enabled in your PHP:
-
-- json (enabled by default - don't turn it off)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
-=======
-# Proyecto_2025
+1. Clonar el repositorio:
+   ```bash
+   git clone https://github.com/SabriMontiel/Proyecto_2025.git
+   ```
